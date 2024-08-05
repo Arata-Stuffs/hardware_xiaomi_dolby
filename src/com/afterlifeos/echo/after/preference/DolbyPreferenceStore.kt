@@ -5,12 +5,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after
+package com.afterlifeos.echo.after.preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceDataStore
 import androidx.preference.PreferenceManager
+import com.afterlifeos.echo.after.DolbyConstants
 
 class DolbyPreferenceStore(
     private val context: Context

@@ -7,6 +7,7 @@
 package com.afterlifeos.echo.after
 
 import android.os.Bundle
+import com.afterlifeos.echo.after.preference.DolbySettingsFragment
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 import com.android.settingslib.widget.R
 
