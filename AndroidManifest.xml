@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.afterlifeos.dolby.afterlife"
+    package="com.afterlifeos.echo.after"
     android:sharedUserId="android.uid.system">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -39,7 +39,7 @@
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.sound" />
             <meta-data android:name="com.android.settings.summary_uri"
-                       android:value="content://com.afterlifeos.dolby.afterlife.summary/dolby" />
+                       android:value="content://com.afterlifeos.echo.after.summary/dolby" />
         </activity>
 
         <service
@@ -55,7 +55,7 @@
 
         <provider
             android:name=".SummaryProvider"
-            android:authorities="com.afterlifeos.dolby.afterlife.summary">
+            android:authorities="com.afterlifeos.echo.after.summary">
         </provider>
 
     </application>
