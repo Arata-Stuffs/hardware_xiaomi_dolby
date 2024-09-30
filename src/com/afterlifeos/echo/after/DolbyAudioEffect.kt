@@ -7,8 +7,8 @@
 package com.afterlifeos.echo.after
 
 import android.media.audiofx.AudioEffect
-import com.afterlifeos.dolby.afterlife.DolbyConstants.Companion.dlog
-import com.afterlifeos.dolby.afterlife.DolbyConstants.DsParam
+import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
+import com.afterlifeos.echo.after.DolbyConstants.DsParam
 import java.util.UUID
 
 class DolbyAudioEffect(priority: Int, audioSession: Int) : AudioEffect(

@@ -1,9 +1,9 @@
 /*
- * Copyright (C) 2023-24 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
+
 package com.afterlifeos.echo.after
 
 import android.content.Context
@@ -15,9 +15,9 @@ import android.media.AudioPlaybackConfiguration
 import android.os.Handler
 import android.util.Log
 import androidx.preference.PreferenceManager
-import com.afterlifeos.dolby.afterlife.DolbyConstants.Companion.dlog
-import com.afterlifeos.dolby.afterlife.DolbyConstants.DsParam
-import com.afterlifeos.dolby.afterlife.R
+import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
+import com.afterlifeos.echo.after.DolbyConstants.DsParam
+import com.afterlifeos.echo.after.R
 
 internal class DolbyController private constructor(
     private val context: Context
