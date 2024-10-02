@@ -20,9 +20,9 @@ import androidx.navigation.compose.rememberNavController
 import com.afterlifeos.echo.after.R
 import com.afterlifeos.echo.after.equalizer.ui.EqualizerScreen
 import com.afterlifeos.echo.after.equalizer.ui.EqualizerViewModel
-import com.android.settingslib.afterlife.framework.compose.localNavController
-import com.android.settingslib.afterlife.framework.theme.SettingsTheme
-import com.android.settingslib.afterlife.widget.scaffold.SettingsScaffold
+import com.android.settingslib.spa.framework.compose.localNavController
+import com.android.settingslib.spa.framework.theme.SettingsTheme
+import com.android.settingslib.spa.widget.scaffold.SettingsScaffold
 
 class EqualizerActivity : ComponentActivity() {
 
