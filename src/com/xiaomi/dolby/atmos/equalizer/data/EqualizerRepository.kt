@@ -1,19 +1,20 @@
 /*
  * Copyright (C) 2024 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.equalizer.data
+package com.xiaomi.dolby.atmos.equalizer.data
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_PRESET
-import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
-import com.afterlifeos.echo.after.DolbyController
-import com.afterlifeos.echo.after.R
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_PRESET
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.dlog
+import com.xiaomi.dolby.atmos.DolbyController
+import com.xiaomi.dolby.atmos.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow

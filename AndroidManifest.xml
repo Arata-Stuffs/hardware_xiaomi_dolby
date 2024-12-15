@@ -4,7 +4,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.afterlifeos.echo.after"
+    package="com.xiaomi.dolby.atmos"
     android:sharedUserId="android.uid.system">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -39,12 +39,12 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.sound" />
             <meta-data android:name="com.android.settings.summary_uri"
-                       android:value="content://com.afterlifeos.echo.after.summary/dolby" />
+                       android:value="content://com.xiaomi.dolby.atmos.summary/dolby" />
         </activity>
 
         <activity
@@ -71,7 +71,7 @@
 
         <provider
             android:name=".SummaryProvider"
-            android:authorities="com.afterlifeos.echo.after.summary">
+            android:authorities="com.xiaomi.dolby.atmos.summary">
         </provider>
 
     </application>

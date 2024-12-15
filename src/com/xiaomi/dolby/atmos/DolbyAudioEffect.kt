@@ -1,14 +1,15 @@
 /*
  * Copyright (C) 2023-24 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.afterlifeos.echo.after
+package com.xiaomi.dolby.atmos
 
 import android.media.audiofx.AudioEffect
-import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
-import com.afterlifeos.echo.after.DolbyConstants.DsParam
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.dlog
+import com.xiaomi.dolby.atmos.DolbyConstants.DsParam
 import java.util.UUID
 
 class DolbyAudioEffect(priority: Int, audioSession: Int) : AudioEffect(

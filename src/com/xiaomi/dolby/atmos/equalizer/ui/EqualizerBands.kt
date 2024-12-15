@@ -1,11 +1,12 @@
 /*
  * Copyright (C) 2024 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.equalizer.ui
+package com.xiaomi.dolby.atmos.equalizer.ui
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth

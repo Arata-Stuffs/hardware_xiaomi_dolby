@@ -1,11 +1,12 @@
 /*
  * Copyright (C) 2024 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.equalizer
+package com.xiaomi.dolby.atmos.equalizer
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,9 +18,9 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.compose.rememberNavController
-import com.afterlifeos.echo.after.R
-import com.afterlifeos.echo.after.equalizer.ui.EqualizerScreen
-import com.afterlifeos.echo.after.equalizer.ui.EqualizerViewModel
+import com.xiaomi.dolby.atmos.R
+import com.xiaomi.dolby.atmos.equalizer.ui.EqualizerScreen
+import com.xiaomi.dolby.atmos.equalizer.ui.EqualizerViewModel
 import com.android.settingslib.spa.framework.compose.localNavController
 import com.android.settingslib.spa.framework.theme.SettingsTheme
 import com.android.settingslib.spa.widget.scaffold.SettingsScaffold

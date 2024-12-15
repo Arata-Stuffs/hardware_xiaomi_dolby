@@ -1,17 +1,18 @@
 /*
  * Copyright (C) 2024 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 The Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.preference
+package com.xiaomi.dolby.atmos.preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceDataStore
 import androidx.preference.PreferenceManager
-import com.afterlifeos.echo.after.DolbyConstants
+import com.xiaomi.dolby.atmos.DolbyConstants
 
 class DolbyPreferenceStore(
     private val context: Context

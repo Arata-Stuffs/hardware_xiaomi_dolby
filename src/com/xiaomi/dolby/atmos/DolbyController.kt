@@ -1,10 +1,11 @@
 /*
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after
+package com.xiaomi.dolby.atmos
 
 import android.content.Context
 import android.media.AudioDeviceCallback
@@ -15,9 +16,9 @@ import android.media.AudioPlaybackConfiguration
 import android.os.Handler
 import android.util.Log
 import androidx.preference.PreferenceManager
-import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
-import com.afterlifeos.echo.after.DolbyConstants.DsParam
-import com.afterlifeos.echo.after.R
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.dlog
+import com.xiaomi.dolby.atmos.DolbyConstants.DsParam
+import com.xiaomi.dolby.atmos.R
 
 internal class DolbyController private constructor(
     private val context: Context

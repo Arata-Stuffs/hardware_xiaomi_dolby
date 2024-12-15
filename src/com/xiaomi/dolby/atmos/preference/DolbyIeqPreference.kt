@@ -1,10 +1,11 @@
 /*
  * Copyright (C) 2024 Paranoid Android
+ * Copyright (C) 2024 The Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.preference
+package com.xiaomi.dolby.atmos.preference
 
 import android.content.Context
 import android.util.AttributeSet
@@ -13,7 +14,7 @@ import android.widget.ImageView
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceViewHolder
-import com.afterlifeos.echo.after.R
+import com.xiaomi.dolby.atmos.R
 
 // Preference with icon on the right side
 class DolbyIeqPreference(

@@ -1,10 +1,11 @@
 /*
  * Copyright (C) 2023-24 Paranoid Android
  * Copyright (C) 2024 AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-package com.afterlifeos.echo.after
+package com.xiaomi.dolby.atmos
 
 import android.content.BroadcastReceiver
 import android.content.Context

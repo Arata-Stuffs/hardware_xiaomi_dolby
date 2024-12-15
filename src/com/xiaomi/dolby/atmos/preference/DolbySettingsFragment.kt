@@ -1,11 +1,12 @@
 /*
  * Copyright (C) 2023-24 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 The Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.preference
+package com.xiaomi.dolby.atmos.preference
 
 import android.media.AudioAttributes
 import android.media.AudioDeviceCallback
@@ -20,21 +21,21 @@ import androidx.preference.Preference
 import androidx.preference.Preference.OnPreferenceChangeListener
 import androidx.preference.PreferenceFragment
 import androidx.preference.SwitchPreferenceCompat
-import com.afterlifeos.echo.after.DolbyConstants
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_BASS
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_DIALOGUE
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_ENABLE
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_HP_VIRTUALIZER
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_IEQ
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_PRESET
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_PROFILE
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_RESET
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_SPK_VIRTUALIZER
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_STEREO
-import com.afterlifeos.echo.after.DolbyConstants.Companion.PREF_VOLUME
-import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
-import com.afterlifeos.echo.after.DolbyController
-import com.afterlifeos.echo.after.R
+import com.xiaomi.dolby.atmos.DolbyConstants
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_BASS
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_DIALOGUE
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_ENABLE
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_HP_VIRTUALIZER
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_IEQ
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_PRESET
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_PROFILE
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_RESET
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_SPK_VIRTUALIZER
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_STEREO
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.PREF_VOLUME
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.dlog
+import com.xiaomi.dolby.atmos.DolbyController
+import com.xiaomi.dolby.atmos.R
 import com.android.settingslib.widget.MainSwitchPreference
 
 class DolbySettingsFragment : PreferenceFragment(),

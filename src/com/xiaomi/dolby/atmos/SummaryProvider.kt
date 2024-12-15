@@ -2,18 +2,19 @@
  * Copyright (C) 2019 The Android Open Source Project
  *           (C) 2023-24 Paranoid Android
  *           (C) 2024 The AfterlifeOS Project
+ *           (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after
+package com.xiaomi.dolby.atmos
 
 import android.content.ContentProvider
 import android.content.ContentValues
 import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
-import com.afterlifeos.echo.after.R
+import com.xiaomi.dolby.atmos.R
 import com.android.settingslib.drawer.TileUtils.META_DATA_PREFERENCE_SUMMARY
 
 private const val KEY_DOLBY = "dolby"

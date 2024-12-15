@@ -1,20 +1,21 @@
 /*
  * Copyright (C) 2024 Paranoid Android
  * Copyright (C) 2024 The AfterlifeOS Project
+ * Copyright (C) 2024 Arata-Stuffs Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.afterlifeos.echo.after.equalizer.ui
+package com.xiaomi.dolby.atmos.equalizer.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.afterlifeos.echo.after.equalizer.data.EqualizerRepository
-import com.afterlifeos.echo.after.equalizer.data.Preset
-import com.afterlifeos.echo.after.DolbyConstants.Companion.dlog
+import com.xiaomi.dolby.atmos.equalizer.data.EqualizerRepository
+import com.xiaomi.dolby.atmos.equalizer.data.Preset
+import com.xiaomi.dolby.atmos.DolbyConstants.Companion.dlog
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.drop
